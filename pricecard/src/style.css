@@ -1,0 +1,85 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.cards{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(90deg, rgba(71,79,239,1) 0%, rgba(61,192,243,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 300px;
+    height: auto;
+    background-color: aliceblue;
+    border-radius: 5px;
+    margin-right: 10px;
+    padding: 20px;
+}
+
+.plans{
+    text-align: center;
+    margin-top: 10px;
+}
+.plans p{
+    color: rgb(101, 99, 99);
+}
+.plans h2{
+    margin: 18px
+}
+hr{
+ margin: 10px;
+}
+
+.features{
+    margin: 10px;
+}
+
+.ticks li {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.feature-show::before {
+    content: "\2713";
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+    margin-bottom: 25px;
+}
+
+.feature-hide::before {
+    content: "\2717"; 
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+    margin-bottom: 25px;
+}
+
+.feature-show {
+    color: black;
+}
+
+.feature-hide {
+    color: lightgrey;
+}
+
+.btn{
+    margin-top: 30px;
+}
+
+button{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(76, 178, 237);
+    border: none;
+    border-radius: 10px;
+}
+
+button:hover{
+    background-color: rgb(40, 95, 244);
+}

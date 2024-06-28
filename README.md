@@ -1,1 +1,22 @@
-# Guvi-Task-React
+**PRICE CARD TASK**
+
+**Front End Technologies**
+1. HTML
+2. CSS
+3. Reactjs + Vitejs
+
+**Installation Method**
+
+STEP 1:
+ npm create vite@latest
+  -> Enter Project name
+  -> Select Framework (React)
+  -> Select Varient (JavaScript)
+STEP 2:
+
+ cd your project name
+ npm install
+ npm run dev
+
+
+
